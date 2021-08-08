@@ -1,0 +1,159 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff67e7;
+  padding: 3% 15% 7%;
+  color: white;
+}
+.kamal {
+  font-family: Montserrat, sans-serif;
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  transform: scale(2);
+}
+.naam {
+  padding-top: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "montserrat-lignt";
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  padding-bottom: 5%;
+  color: #ff67e7;
+}
+
+.icon:hover {
+  color: #0cecdd;
+}
+#testimonials {
+  text-align: center;
+  background-color: #0cecdd;
+  color: white;
+  font-family: montserrat;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #0cecdd;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0px 20px 20px 20px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pickline {
+  font-family: montserrat;
+  font-size: 3rem;
+  padding-top: 50px;
+}
+.pickline2 {
+  font-weight: bold;
+  padding: 20px;
+  font-size: large;
+}
+.card {
+  margin: 50px auto+1%;
+  transform: scale(1.1);
+  font-family: ubuntu;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.card-text {
+  margin: 5px;
+  padding: 0px;
+}
+.card:hover {
+  transform: scale(1.12);
+}
+#cta {
+  text-align: center;
+  background-color: #0cecdd;
+  padding: 50px;
+  margin-top: 20px;
+  color: white;
+
+}
+#footer {
+  background-color: #ffffff;
+  padding: 5% 15%;
+  text-align: center;
+}
+.ctaline {
+  margin: 50px auto 0px;
+
+  font-family: montserrat;
+  font-weight: normal;
+  font-size: 3rem;
+ 
+}
+.social-icon{
+  margin: 5px 10px 20px;
+}
+
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+  .card{
+    margin: 50px auto;
+    position: relative;
+    transform: scale(1);
+
+
+  }
+  .card:hover{
+    transform: scale(1);
+    filter: contrast(0.9);
+  }
+  .row{
+    text-align: center;
+  }
+}
